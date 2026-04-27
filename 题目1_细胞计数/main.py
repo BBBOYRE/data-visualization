@@ -96,7 +96,7 @@ def count_cells(image_path, filename):
 
 def main():
     base_path = "../期末报告图片素材/"
-    image_files = ["cell00.jpg", "cell01.jpg", "cell02.jpg"]
+    image_files = ["cell00.jpg", "cell01.jpg", "cell02.jpg", "cell03.jpg"]  # 加入了不存在的 cell03.jpg 来测试错误处理
     
     for filename in image_files:
         full_path = os.path.join(base_path, filename)

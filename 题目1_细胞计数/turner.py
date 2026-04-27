@@ -84,4 +84,4 @@ def run_tuner(image_filename):
 
 if __name__ == "__main__":
     # 在这里更改你要调优的图片名称！
-    run_tuner("cell01.jpg")
+    run_tuner("cell03.jpg")
